@@ -1,0 +1,86 @@
+/*** Stylesheet for the download soundboad ***/
+html,body {
+    background-color:#000;
+}
+input {
+    width:400px;
+}
+.active {
+    background-color:#0CF;
+}
+.console {
+    width:1040px;
+    border-top:2px #007 solid;
+    border-right:10px #EAB676 solid;
+    border-left:10px #EAB676 solid;
+    border-bottom:3px #007 solid;
+    background-color:#1E81B0;
+    padding:5px;
+    color:#EEE;
+    margin:10px;
+}
+.inner {
+    min-width:1010px;
+    padding:0;
+}
+.bounds {
+    border:3px #EEE solid;
+    border-radius:10px;
+    padding:10px;
+    text-align:center;
+    font-size:.8em;
+    min-height:66px;
+}
+
+.sliderVertical {
+    width:30px;
+    height:300px;
+    -webkit-appearance:slider-vertical;
+}
+.sliderWrapper {
+    display:inline-block;
+}
+.sliderWrapper .num {
+    width:50px;
+    background-color: #000;
+    border: 0;
+    font-family: courier;
+    color: #0F0;
+}
+.logo {
+    text-align:right;
+}
+input[type="range" i] {
+    color: -internal-light-dark(rgb(255, 255, 255), rgb(255, 255, 255)) !important;
+}
+audio {
+    width:100%;
+}
+.nopadd {
+    padding:0 !important;
+}
+
+.left20 {
+    float:none !important;
+    position: relative;
+    left: 15px;
+    top: 3px;
+}
+.soundShapeContainer {
+    position: relative;
+    top: -13px;
+    min-height: 76px;
+    padding-top: 16px;
+}
+.graphContainer {
+    width:100%;
+}
+.row > div {
+    padding:2px !important;
+}
+.displayInline {
+    display:inline;
+}
+.width50 {
+    width:50% !important;
+}
